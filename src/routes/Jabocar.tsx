@@ -170,6 +170,11 @@ const ThirdSectionInner = styled(CenterContents)`
     margin-bottom: 22px;
   }
 
+  & img:last-child {
+    box-shadow: rgb(0 0 0 / 16%) 0px 10px 20px;
+    border-radius: 20px;
+  }
+
   & > span {
     margin-bottom: 49px;
   }
@@ -227,6 +232,8 @@ const FifthSectionInner = styled(CenterContents)`
 
   & > img {
     margin-right: 108px;
+    box-shadow: 0px 10px 20px #00000029;
+    border-radius: 10px;
   }
 
   & div img {

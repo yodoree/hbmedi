@@ -131,6 +131,12 @@ const NavBox = styled.div`
 `;
 
 const Col = styled.div``;
+
+const ALink = styled.a`
+  &:hover {
+    text-decoration: underline;
+  }
+`;
 function EightLab() {
   return (
     <MainContainer>
@@ -198,7 +204,12 @@ function EightLab() {
                     <Description>티프레쉬 작두콩차</Description>
                   </LineUpList>
                 </LineUpWrapper>
-                <Description>홈페이지 방문 {">"}</Description>
+                <ALink
+                  href="https://www.8lab.co.kr/teafreshinfo"
+                  target="_blank"
+                >
+                  <Description>홈페이지 방문 {">"}</Description>
+                </ALink>
               </RightBox>
             </Col>
           </div>
@@ -247,13 +258,18 @@ function EightLab() {
                     <Description>깐깐한 호박즙 (2022년 출시 예정)</Description>
                   </LineUpList>
                 </LineUpWrapper>
-                <Description>홈페이지 방문 {">"}</Description>
+                <ALink
+                  href="https://www.8lab.co.kr/blackgarlic"
+                  target="_blank"
+                >
+                  <Description>홈페이지 방문 {">"}</Description>
+                </ALink>
               </RightBox>
             </Col>
           </div>
         </div>
       </Section2>
-      <NavDiv to="/brand/jabocar">
+      <NavDiv to="/brand/8lab">
         <CenterContents>
           <NavBox>8LAB 자세히 보기</NavBox>
         </CenterContents>

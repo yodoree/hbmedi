@@ -42,7 +42,6 @@ const NavBox = styled.a`
 
 const PinkSection = styled(CenterContents)`
   height: 230px;
-  background: #ffd9d9;
   color: #666666;
 `;
 
@@ -227,7 +226,7 @@ function BrandLab() {
         <LabTitle>우리의 목표</LabTitle>
 
         <BoxWrapper>
-          <LeftBox>
+          <LeftBox backColor="#3f518b">
             <img src={ballImg} />
           </LeftBox>
           <RightBox backColor="#3f518b" color="#fff">
@@ -243,7 +242,7 @@ function BrandLab() {
         </BoxWrapper>
 
         <BoxWrapper>
-          <LeftBox backColor="#FFD9D9">
+          <LeftBox backColor="#fff">
             <img src={earthImg} />
           </LeftBox>
           <RightBox>
@@ -258,7 +257,7 @@ function BrandLab() {
         </BoxWrapper>
 
         <BoxWrapper>
-          <LeftBox>
+          <LeftBox backColor="#3f518b">
             <img src={cupImg} />
           </LeftBox>
           <RightBox backColor="#3f518b" color="#fff">
@@ -280,7 +279,7 @@ function BrandLab() {
         </BoxWrapper>
 
         <BoxWrapper>
-          <LeftBox backColor="#FFD9D9">
+          <LeftBox backColor="#fff">
             <img src={handImg} />
           </LeftBox>
           <RightBox>

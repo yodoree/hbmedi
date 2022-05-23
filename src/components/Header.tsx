@@ -40,7 +40,7 @@ const NavList = styled.li`
   width: 110px;
   display: flex;
   align-items: center;
-
+  font-weight: bold;
   justify-content: center;
 
   &:nth-child(2) {
