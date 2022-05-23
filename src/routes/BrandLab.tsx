@@ -227,7 +227,7 @@ function BrandLab() {
 
         <BoxWrapper>
           <LeftBox backColor="#3f518b">
-            <img src={ballImg} />
+            <img src={ballImg} alt="ball" />
           </LeftBox>
           <RightBox backColor="#3f518b" color="#fff">
             <BoxTitle>올바른 브랜드</BoxTitle>
@@ -243,7 +243,7 @@ function BrandLab() {
 
         <BoxWrapper>
           <LeftBox backColor="#fff">
-            <img src={earthImg} />
+            <img src={earthImg} alt="earth" />
           </LeftBox>
           <RightBox>
             <BoxTitle>함께하는 브랜드</BoxTitle>
@@ -258,7 +258,7 @@ function BrandLab() {
 
         <BoxWrapper>
           <LeftBox backColor="#3f518b">
-            <img src={cupImg} />
+            <img src={cupImg} alt="cup" />
           </LeftBox>
           <RightBox backColor="#3f518b" color="#fff">
             <BoxTitle>건강 전문가 브랜드</BoxTitle>
@@ -280,7 +280,7 @@ function BrandLab() {
 
         <BoxWrapper>
           <LeftBox backColor="#fff">
-            <img src={handImg} />
+            <img src={handImg} alt="hand" />
           </LeftBox>
           <RightBox>
             <BoxTitle>상생하는 브랜드</BoxTitle>

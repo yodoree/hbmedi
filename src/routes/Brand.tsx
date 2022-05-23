@@ -27,12 +27,6 @@ const TopSection = styled.div`
   }
 `;
 
-const ImgSection = styled.div<{ img: any; height: any }>`
-  height: ${(props) => props.height};
-  background: url(${(props) => props.img});
-  background-size: cover;
-`;
-
 const Tabs = styled.div`
   position: sticky;
   top: 0;

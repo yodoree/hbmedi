@@ -7,7 +7,6 @@ import DescriptionImg from "../img/jabocarTopDe.png";
 import brandJa1Img from "../img/brandJa1.png";
 import brandJa2Img from "../img/brandJa2.png";
 import brandJa3Img from "../img/brandJa3.png";
-import { Link } from "react-router-dom";
 
 const TopSection = styled.div`
   background: url(${topImg});

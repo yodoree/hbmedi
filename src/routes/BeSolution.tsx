@@ -123,7 +123,7 @@ function BeSolution() {
         <div className="container-fluid p-0">
           <div className="row g-0">
             <div className="col p-0">
-              <img src={logoImg}></img>
+              <img src={logoImg} alt="logo"></img>
             </div>
             <div className="col p-0">
               <SectionTitle>피부와 자연의 부담을 줄이기 위해</SectionTitle>
@@ -142,7 +142,7 @@ function BeSolution() {
         <div className="container-fluid p-0">
           <div className="row g-0">
             <div className="col p-0">
-              <img src={bottleImg}></img>
+              <img src={bottleImg} alt="img"></img>
             </div>
             <div className="col p-0">
               <p>
