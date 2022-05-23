@@ -65,6 +65,10 @@ a {
   color:inherit;
 }
 
+span {
+  line-height: 1.3;
+}
+
 `;
 
 function App() {
