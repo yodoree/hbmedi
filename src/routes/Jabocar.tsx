@@ -221,6 +221,7 @@ const BannerSection = styled.div<{ img?: any }>`
   align-items: center;
   justify-content: center;
   background: url(${(props) => props.img});
+  background-size: cover;
 
   & img {
     margin-bottom: 20px;
