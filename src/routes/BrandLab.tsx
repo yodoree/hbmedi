@@ -54,6 +54,7 @@ const PinkTitle = styled.h3`
 const PinkDescription = styled.span`
   display: block;
   letter-spacing: -1.2px;
+  font-size: 20px;
 `;
 
 const PinkCol = styled.div`

@@ -63,7 +63,7 @@ const MapSpan = styled.span`
   letter-spacing: -1.44px;
 
   & b {
-    font-weight: bolder;
+    font-weight: bold;
   }
 
   &:last-child {
@@ -100,6 +100,7 @@ const SubwayBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
 `;
 
 const SubwaySpan = styled.span`

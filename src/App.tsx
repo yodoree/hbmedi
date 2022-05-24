@@ -54,7 +54,7 @@ table {
   box-sizing: border-box;
 }
 body {
-  font-weight: 300;
+  font-weight: 400;
   font-family: 'Noto Sans KR', sans-serif;
   line-height: 1.2;
   background-color: black;

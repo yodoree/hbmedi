@@ -64,7 +64,7 @@ const HiddenDiv = styled.div`
 const HiddenUl = styled.ul``;
 
 const HiddenLi = styled.li`
-  width: 110px;
+  width: 120px;
   height: 50px;
   display: flex;
   align-items: center;

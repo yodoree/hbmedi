@@ -109,6 +109,7 @@ const TagBox = styled.div`
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+  font-weight: bold;
 
   &:last-child {
     margin: 0;
@@ -143,7 +144,7 @@ function EightLab() {
       <TopSection>
         <Title>8LAB</Title>
         <Description>
-          한의학 박사를 비롯하여 의학박사 전문의, 티소믈리에가 블랜딩 한
+          한의학 박사를 비롯하여 의학박사 전문의, 티소믈리에가 블렌딩 한
         </Description>
         <Description>
           건강기능차 '티프레쉬' 출시 이후, 경희대 피부생명공학센터와 함께

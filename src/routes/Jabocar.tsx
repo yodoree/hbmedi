@@ -37,6 +37,7 @@ const TopSection = styled.div`
   align-items: center;
   height: 420px;
   background: url(${mainCityImg});
+  background-size: cover;
   color: #fff;
 
   & h1 {
@@ -88,6 +89,8 @@ const Section = styled.div<{ img?: any }>`
   height: 922px;
   background: url(${(props) => props.img});
   background-color: ${(props) => props.color};
+  background-size: cover;
+  background-repeat: no-repeat;
 `;
 
 const FirstSectionInner = styled(CenterContents)`
@@ -284,7 +287,7 @@ function Jabocar() {
     <MainContainer>
       <TopSection>
         <Title>자보카 네트워크</Title>
-        <Description>2017년에 설립된 중소기업 (주)에이치비메디는</Description>
+        <Description>2017년에 설립된 (주)에이치비메디는</Description>
         <Description>
           한방병원, 병의원을 상대로 각 분야별 의료컨설팅, 광고마케팅 사업을
           진행하고 있습니다.
@@ -469,7 +472,7 @@ function Jabocar() {
         <SixthSectionInner>
           <div>
             <img src={postingImg} alt="" />
-            <Description>트랜드에 맞추어 매월 블로그에 들어가는</Description>
+            <Description>트렌드에 맞추어 매월 블로그에 들어가는</Description>
             <Description>포스팅 이미지가 새롭게 제작 됩니다.</Description>
             <Description>
               ※ 이해를 돕기 위해 만들어진 이미지 입니다.

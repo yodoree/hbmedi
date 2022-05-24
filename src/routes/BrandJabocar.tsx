@@ -49,6 +49,7 @@ const JabocarTitle = styled.h3`
   color: #3f518b;
   font-size: 24px;
   font-weight: bold;
+  margin: 20px 0;
 `;
 
 const BoxWrapper = styled.div`
@@ -123,7 +124,7 @@ function BrandJabocar() {
           급변하는 온라인 광고 시장에 빠르게 맞춰 성공적인 온라인 마케팅을
         </Description>
         <Description>
-          제시하고 검색광고 효울을 높여 드리고 있습니다.
+          제시하고 검색광고 효율을 높여 드리고 있습니다.
         </Description>
       </DescriptionSection>
       <GoalSection>
@@ -133,21 +134,21 @@ function BrandJabocar() {
         <Description>매일 함께 고민하고 있습니다.</Description>
         <BoxWrapper>
           <Box>
-            <Title>한의원 마케팅 전문</Title>
+            <Title style={{ fontSize: "24px" }}>한의원 마케팅 전문</Title>
             <Description>한의원 전문 마케터의</Description>
             <Description>다년간 경험을 바탕으로</Description>
             <Description>각 특성에 맞는 방향으로</Description>
             <Description>관리가 진행 됩니다.</Description>
           </Box>
           <Box>
-            <Title>차별화 전략으로</Title>
+            <Title style={{ fontSize: "24px" }}>차별화 전략으로</Title>
             <Description>에이치비메디는 한의원</Description>
             <Description>마다의 차별화된 가치를</Description>
             <Description>선별하여 소비자에게</Description>
             <Description>전달 합니다.</Description>
           </Box>
           <Box>
-            <Title>의료 광고법 엄수</Title>
+            <Title style={{ fontSize: "24px" }}>의료 광고법 엄수</Title>
             <Description>현 의료법에서</Description>
             <Description>변경된 이슈 발견시</Description>
             <Description>빠른 대처가 진행 됩니다.</Description>
