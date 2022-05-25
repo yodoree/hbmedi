@@ -66,7 +66,7 @@ a {
 }
 
 span {
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 `;

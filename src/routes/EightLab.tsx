@@ -9,7 +9,7 @@ import {
 
 import topImg from "../img/top.png";
 import teaImg from "../img/tea.png";
-import teaImg1 from "../img/tea1.png";
+import teaImg1 from "../img/tea_tit_img.png";
 import maneulImg from "../img/maneul.png";
 import maneulImg1 from "../img/maneul1.png";
 import { Link } from "react-router-dom";
@@ -191,18 +191,17 @@ function EightLab() {
                 <Title3>LINE UP</Title3>
                 <LineUpWrapper>
                   <LineUpList>
-                    <Description>티프레쉬 청명차</Description>
-                    <Description>티프레쉬 청해차</Description>
-                    <Description>티프레쉬 청폐차</Description>
+                    <Description>청명차</Description>
+                    <Description>청해차</Description>
+                    <Description>청폐차</Description>
                   </LineUpList>
                   <LineUpList>
-                    <Description>티프레쉬 청모차</Description>
-                    <Description>티프레쉬 청쑥차</Description>
-                    <Description>티프레쉬 붓티</Description>
+                    <Description>청모차</Description>
+                    <Description>청쑥차</Description>
                   </LineUpList>
                   <LineUpList>
-                    <Description>티프레쉬 브이쏙티</Description>
-                    <Description>티프레쉬 작두콩차</Description>
+                    <Description>작두콩차</Description>
+                    <Description>붓티</Description>
                   </LineUpList>
                 </LineUpWrapper>
                 <ALink
@@ -250,13 +249,13 @@ function EightLab() {
                 <Title3>LINE UP</Title3>
                 <LineUpWrapper>
                   <LineUpList>
-                    <Description>깐깐한 흑마늘 농축 진액</Description>
-                    <Description>깐깐한 흑마늘 진액</Description>
-                    <Description>깐깐한 흑마늘 양파진액</Description>
+                    <Description>흑마늘 농축 진액</Description>
+                    <Description>흑마늘 진액</Description>
+                    <Description>흑마늘 양파진액</Description>
                   </LineUpList>
                   <LineUpList>
-                    <Description>깐깐한 흑마늘 깐 흑마늘</Description>
-                    <Description>깐깐한 호박즙 (2022년 출시 예정)</Description>
+                    <Description>발효 깐 흑마늘</Description>
+                    <Description>호박즙 (2022년 출시 예정)</Description>
                   </LineUpList>
                 </LineUpWrapper>
                 <ALink

@@ -101,13 +101,13 @@ const SubwayBox = styled.div`
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  margin-right: 10px;
 `;
 
 const SubwaySpan = styled.span`
   display: block;
   font-size: 18px;
   letter-spacing: -1.08px;
-  margin-left: 7px;
 `;
 
 const BusTitle = styled.h3`
@@ -213,29 +213,17 @@ function Map() {
         <div>
           <SubwayBox color="#0D347F">1호선</SubwayBox>
           <SubwaySpan>
-            <BoldText color="#0D347F">1호선 청량리역</BoldText> 3번 출구 |
-            롯데리아 방향
+            <BoldText color="#0D347F">청량리역 3번 출구</BoldText> |
+            청량리역환승센터 건너 롯데리아 방향
           </SubwaySpan>
         </div>
         <div>
           <SubwayBox color="#178C72">경춘선</SubwayBox>
-          <SubwaySpan>
-            <BoldText color="#178C72">경춘선 청량리역</BoldText> 1번 출구 |
-            청량리환승센터 건너 롯데리아 방향
-          </SubwaySpan>
-        </div>
-        <div>
           <SubwayBox color="#FABE00">수인분당</SubwayBox>
-          <SubwaySpan>
-            <BoldText color="#FABE00">수인분당선 청량리역</BoldText> 1번 출구 |
-            청량리환승센터 건너 롯데리아 방향
-          </SubwaySpan>
-        </div>
-        <div>
           <SubwayBox color="#76B69B">경의중앙</SubwayBox>
           <SubwaySpan>
-            <BoldText color="#76B69B">경의중앙선 청량리역</BoldText> 1번 출구 |
-            청량리환승센터 건너 롯데리아 방향
+            <BoldText>청량리역 1번 출구</BoldText> | 청량리역환승센터 건너
+            롯데리아 방향
           </SubwaySpan>
         </div>
       </SubwaySection>
