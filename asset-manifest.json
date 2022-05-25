@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/hbmedi/static/js/main.6344d716.js",
+    "main.js": "/hbmedi/static/js/main.887f72ed.js",
     "static/media/brandBe2.png": "/hbmedi/static/media/brandBe2.6daa07552fa00e2ce365.png",
     "static/media/jabocarTop.png": "/hbmedi/static/media/jabocarTop.7aa7e2b5651182f4adde.png",
     "static/media/labTop.png": "/hbmedi/static/media/labTop.c0327780fcd6fd484e78.png",
@@ -47,11 +47,11 @@
     "static/media/jabocar.png": "/hbmedi/static/media/jabocar.5c3aace0022112259be2.png",
     "static/media/maneul1.png": "/hbmedi/static/media/maneul1.07e6f847d19083472174.png",
     "static/media/hand.png": "/hbmedi/static/media/hand.5c150ee0669a0c7b82a2.png",
-    "static/media/tea1.png": "/hbmedi/static/media/tea1.71e95681226fee0d5f7c.png",
+    "static/media/tea_tit_img.png": "/hbmedi/static/media/tea_tit_img.c5575e9d0b0b368ae060.png",
     "index.html": "/hbmedi/index.html",
-    "main.6344d716.js.map": "/hbmedi/static/js/main.6344d716.js.map"
+    "main.887f72ed.js.map": "/hbmedi/static/js/main.887f72ed.js.map"
   },
   "entrypoints": [
-    "static/js/main.6344d716.js"
+    "static/js/main.887f72ed.js"
   ]
 }
