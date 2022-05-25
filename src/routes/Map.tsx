@@ -213,8 +213,8 @@ function Map() {
         <div>
           <SubwayBox color="#0D347F">1호선</SubwayBox>
           <SubwaySpan>
-            <BoldText color="#0D347F">청량리역 3번 출구</BoldText> |
-            청량리역환승센터 건너 롯데리아 방향
+            <BoldText color="#0D347F">청량리역 3번 출구</BoldText> | 롯데리아
+            방향
           </SubwaySpan>
         </div>
         <div>
